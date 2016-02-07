@@ -1,0 +1,40 @@
+---
+title: "Baltic Sea Infocenter"
+sub-title: "Aalto University Studio"
+layout: project
+ID: "baltic"
+description: A proposal for a Baltic Sea Info Center in Helsinki's South harbor.
+thumbnail: "/assets/baltic/baltic-photo-1.jpg"
+images:
+- image_path: /assets/baltic/baltic-photo-1.jpg
+  heading: Perspective view of Baltic Sea Info Center
+- image_path: /assets/baltic/baltic-photo-2.jpg
+  heading: View of Info Center lobby
+- image_path: /assets/baltic/baltic-siteplan-1.jpg
+  heading: Site Plan
+- image_path: /assets/baltic/baltic-siteplan-2.jpg
+  heading: Site Plan
+- image_path: /assets/baltic/baltic-elevation-1.jpg
+  heading: Front Elevation
+- image_path: /assets/baltic/baltic-elevation-2.jpg
+  heading: Rear Elevation
+- image_path: /assets/baltic/baltic-elevation-3.jpg
+  heading: Side Elevations
+- image_path: /assets/baltic/baltic-plan-1.jpg
+  heading: Floor plans - Lower Level + Ground Level
+- image_path: /assets/baltic/baltic-plan-2.jpg
+  heading: Floor plans - 2nd + 3rd Floors
+- image_path: /assets/baltic/baltic-plan-3.jpg
+  heading: Floor plans - 4th + 5th Floors
+- image_path: /assets/baltic/baltic-section-1.jpg
+  heading: Longitudinal Section
+---
+
+
+The Baltic Sea Centre is in direct engagement with the life of the Baltic in the South Harbor. By facing the upper floors towards the sea the building allows for uninterrupted views out to the Baltic, while also gesturing towards ships as they make their way into the port.
+
+The base of the sea centre is aligned to site specificities including the existing shore line, and the axis of the market hall and terminal buildings.
+
+The summation of these swept masses creates an enveloping form that demarcates a clear entrance for visitors and a generous yet partially enclosed public terrace for the harbor area.
+
+A break in the massing enables both a programmatically coherent design and an important view corridor to the Baltic from the main entry and consistently throughout each floor of the building.

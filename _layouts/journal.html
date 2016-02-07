@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<article itemscope itemtype="http://schema.org/Blogposting">
+
+  <header class="clearfix py2">
+    <h3 class="sm-hide center" itemprop="name headline">{{ page.title }}</h3>
+    <h5 class="sm-hide center" itemprop="name headline">{{ page.sub-title }}</h5>
+    <h1 class="sm-show center" itemprop="name headline">{{ page.title }}</h1>
+    <h4 class="sm-show center" itemprop="name headline">{{ page.sub-title }}</h4>
+    {% if page.thumbnail %}
+      <img src="{{ page.thumbnail }}" />
+      <h4>{{ page.description }}</h4>
+    {% endif %}
+  </header>
+
+  <div itemprop="articleBody">
+    {{ content }}
+    <p class="h6 muted py2">{{ page.date | date: "%B %d, %Y"}}</p>
+  </div>
+
+  <ul class="mt4 py4 clearfix list-reset animated fadeIn">
+    {% for post in site.categories['journal'] %}
+      {% if post.url != page.url %}
+        <a class="black" href="{{ post.url | prepend: site.baseurl }}">
+          <li class="flex flex-center border-top">
+            <span class="flex-auto h4 py2">{{ post.title }}</span>
+            <span class="right-align h6 py2">{{ post.date | date: "%B %Y"}}</span>
+          </li>
+        </a>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+
+
+</article>

@@ -1,0 +1,17 @@
+<header class="site-header">
+
+  <div class="center py3">
+
+    <a class="btn regular h3" href="{{ site.baseurl }}/">{{ site.title }}</a>
+
+    <nav>
+      <ul class="list-reset">
+        {% assign pages_list = site.pages %}
+        {% assign group = 'navigation' %}
+        {% include pages_list.html %}
+      </ul>
+    </nav>
+
+  </div>
+
+</header>

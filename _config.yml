@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+  title: Alexander Adkins
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "http://www.paulspenceradkins.com" # the base hostname & protocol for your site
+  permalink: /:categories/:title/
+  description: > # this means to ignore newlines until "baseurl:"
+    Paul Spencer Adkins - Tenor
+  author:
+      name: "Paul Spencer Adkins"
+      email: "padkins1969@gmail.com"
+      website: "http://www.paulspenceradkins.com"
+  img: /assets/
+  #lastmod: 2015-04-15T23:12:14+05:30
+
+  # Build settings
+  markdown: kramdown
+
+  sass:
+      sass_dir: _sass
+      style: :compressed
+
+  paginated_category: "posts"
+  posts_per_page: 3
