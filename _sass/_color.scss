@@ -7,7 +7,7 @@
 
  $aqua: #7fdbff;
  $blue: #0074d9;
- $navy: #001f3f;
+ $navy: #242633;
  $teal: #39cccc;
  $green: #2ecc40;
  $olive: #808013;
@@ -23,10 +23,12 @@
  $gray: #aaa;
  $black: #111;
 
+
  $body-background-color: #fafafa;
  $body-color: $black;
  $link-color: $olive;
 
+ .bg-navy  { background-color: $navy }
 
  /* Basscss Links */
 

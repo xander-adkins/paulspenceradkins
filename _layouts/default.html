@@ -3,13 +3,23 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="bg-navy">
 
-    {% include sidebar.html %}
+    <div class="clearfix">
 
-    <div class="content container">
-      {{ content }}
+      <div class="col col-4">
+        {% include header.html %}
+      </div>
+
+      <div class="col col-8 p3">
+        <div class="container bg-silver p4">
+          {{ content }}
+        </div>
+      </div>
+
     </div>
+
+    <!-- {% include footer.html %} -->
 
   </body>
 </html>
