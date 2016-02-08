@@ -1,32 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-us">
 
   {% include head.html %}
 
   <body>
-    <div class="container px2">
 
-      {% include header.html %}
+    {% include sidebar.html %}
 
-      <div>
-        <div class="wrapper">
-
-          {{ content }}
-
-        </div>
-      </div>
+    <div class="content container">
+      {{ content }}
     </div>
-
-    <!-- Link back to top of page -->
-
-    <div>
-      <h5 class="center">
-        <a href="#">Take me to the Top <span>&#10548;&#xfe0e;</span></a>
-      </h5>
-    </div>
-
-    {% include footer.html %}
 
   </body>
-
 </html>

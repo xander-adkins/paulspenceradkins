@@ -17,53 +17,53 @@ module Jekyll
             if next_page > total_pages
                 next_page = nil
             end
-        #     self.data = {
-        #         'layout' => 'default',
-        #         'title' => "Journal",
-        #         'current_posts' => current_posts,
-        #         'total_pages' => total_pages,
-        #         'current_page' => current_page,
-        #         'prev_page' => prev_page,
-        #         'next_page' => next_page
-        #     }
-        #     self.content = <<-EOS
-        #       <h1>Journal</h1>
-        #       <h4>Sharing some of my ideas.</h4>
-        #
-        #       {% for post in page.current_posts %}
-        #       <article>
-        #           <h2>
-        #               <a href="{{ post.url }}" title="Read more on {{ post.title }}" rel="bookmark">{{ post.title }}</a>
-        #           </h2>
-        #           <div>
-        #               {{ post.excerpt }}
-        #           </div>
-        #           <div class="entry-meta">
-        #               <em>{{ post.date | date: "%b %-d, %Y" }} by {{ site.author.name }}</em>
-        #           </div>
-        #       </article>
-        #       {% endfor %}
-        #
-        #       <br>
-        #
-        #       {% if page.total_pages > 1 %}
-        #           <div class="clearfix">
-        #               {% if page.prev_page %}
-        #                   {% if page.prev_page == 1 %}
-        #                       <a class="pull-left" href="/journal/"></a>
-        #                   {% else %}
-        #                       <a class="pull-left" href="/journal/pages/{{ page.prev_page }}"></a>
-        #                   {% endif %}
-        #               {% endif %}
-        #               {% if page.next_page %}
-        #                   <a class="pull-right" href="/journal/pages/{{ page.next_page }}"></a>
-        #               {% endif %}
-        #           </div>
-        #       {% endif %}
-        #
-        #   EOS
-        #
-        # end
+            self.data = {
+                'layout' => 'default',
+                'title' => "Journal",
+                'current_posts' => current_posts,
+                'total_pages' => total_pages,
+                'current_page' => current_page,
+                'prev_page' => prev_page,
+                'next_page' => next_page
+            }
+            self.content = <<-EOS
+              <h1>Journal</h1>
+              <h4>Sharing some of my ideas.</h4>
+
+              {% for post in page.current_posts %}
+              <article>
+                  <h2>
+                      <a href="{{ post.url }}" title="Read more on {{ post.title }}" rel="bookmark">{{ post.title }}</a>
+                  </h2>
+                  <div>
+                      {{ post.excerpt }}
+                  </div>
+                  <div class="entry-meta">
+                      <em>{{ post.date | date: "%b %-d, %Y" }} by {{ site.author.name }}</em>
+                  </div>
+              </article>
+              {% endfor %}
+
+              <br>
+
+              {% if page.total_pages > 1 %}
+                  <div class="clearfix">
+                      {% if page.prev_page %}
+                          {% if page.prev_page == 1 %}
+                              <a class="pull-left" href="/journal/"></a>
+                          {% else %}
+                              <a class="pull-left" href="/journal/pages/{{ page.prev_page }}"></a>
+                          {% endif %}
+                      {% endif %}
+                      {% if page.next_page %}
+                          <a class="pull-right" href="/journal/pages/{{ page.next_page }}"></a>
+                      {% endif %}
+                  </div>
+              {% endif %}
+
+          EOS
+
+        end
 
         def url
             if @current_page == 1
