@@ -5,9 +5,9 @@
 
  /* Typography Variables */
 
- $font-family: 'Inconsolata', 'Times New Roman', 'Times', serif;
+ $font-family: 'Source Sans Pro', Helvetica, sans-serif;
  $monospace-font-family: 'Inconsolata', Consolas, monospace;
- $heading-font-family: 'Playfair Display', Helvetica, sans-serif;
+ $heading-font-family: 'Playfair Display', 'Times New Roman', 'Times', serif;
 
  $body-font-size: 100%;
  $line-height: 1.5;
@@ -51,7 +51,11 @@
    text-decoration: $link-hover-text-decoration;
  }
 
- h1, h2, h3, h4, h5, h6,
+ h1, h2, h3, h4, h5, h6 {
+   font-family: $font-family;
+   font-weight: 200;
+ }
+
  .h1, .h2, .h3, .h4, .h5, .h6 {
    font-family: $heading-font-family;
    font-weight: $heading-font-weight;
