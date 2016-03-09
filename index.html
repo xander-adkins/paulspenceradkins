@@ -6,7 +6,7 @@ layout: default
 <div class="mt4">
   <h2 class="h1 max-width-2 animated fadeIn">
     Paul Spencer Adkins is a world class opera singer,
-    voice instructor & record producer.
+    voice instructor & producer.
   </h2>
   <nav class="mt4" role="navigation">
     <ul class="list-reset">
@@ -17,7 +17,6 @@ layout: default
             {% if node.layout == "page" %}
               <li class="h2 animated fadeInUp mb3">
                 <a href="{{ node.url | prepend: site.baseurl | prepend: site.url }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %}>{{ node.title }}</a>
-                <!-- <a class="{% if page.url contains node.url %}active{% endif %}" href="{{ node.url | prepend: site.baseurl | prepend: site.url }}">{{ node.title }}</a> -->
               </li>
             {% endif %}
           {% endif %}
