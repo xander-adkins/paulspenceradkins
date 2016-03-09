@@ -105,7 +105,22 @@
   */
 
   .dynamic-iframe {
-    width: $iframe-width;
-    height: $iframe-height;
-    margin: 2em 0;
+    max-width: 64em;
+    margin: 2em auto;
+    @media (max-width: 40em){
+      width: $iframe-width-xs;
+      height: $iframe-height-xs;
+    }
+    @media (min-width: 40em) and (max-width: 52em){
+      width: $iframe-width-sm;
+      height: $iframe-height-sm;
+    }
+    @media (min-width: 52em) and (max-width: 64em){
+      width: $iframe-width-md;
+      height: $iframe-height-md;
+    }
+    @media (min-width: 64em){
+      width: $iframe-width-lg;
+      height: $iframe-height-lg;
+    }
   }
