@@ -6,20 +6,29 @@ sub-heading: ""
 permalink: /about/
 ---
 
-<div class="clearfix">
-  <div class="sm-col-12 md-col-10 mx-auto">
-    <div class="clearfix">
-      <h1 class="col md-col-6 mt0">Biography</h1>
-      <div class="col md-col-6">
-        <img src="/assets/About-Photo-1.jpeg" alt="Paul Spencer Adkins" title="Paul Spencer Adkins">
-        <h5 class="m0">Paul Spencer Adkins &copy; {{ site.time | date: '%Y' }}. All rights reserved.</h5>
-      </div>
-    </div>
+<div class="bg-paul-free"></div>
+<h2 class="h1 max-width-2">The Makings of an Operatic Tenor</h2>
+<div class="h4 italic">- scroll down -</div>
 
-
-    <h2 class="h2 sm-py2 md-py3">
-      A winner in the 1<sup>st</sup> Luciano Pavarotti International Voice Competition, as well as the Philadelphia and Princeton Metropolitan Opera auditions, tenor Paul Spencer Adkins enjoys a career in the United States and abroad.
-    </h2>
+<div class="clearfix top-space">
+  <div class="col sm-col-12 md-col-6">
+    <h2 class="m0">Paul Spencer Adkins</h2>
+  </div>
+  <p class="col sm-col-12 md-col-6 h3 mt0">
+    A winner in the <strong>1<sup>st</sup> Luciano Pavarotti</strong> International Voice Competition,
+    ... as well as the Philadelphia and Princeton Metropolitan Opera auditions, tenor Paul Spencer Adkins enjoys a career in the United States and abroad.
+  </p>
+</div>
+<div class="clearfix mb4">
+  <div class="col sm-col-12 md-col-6">
+    <h3>Contact Information</h3>
+    <ul>
+      <li class="h5 mb1">Email - adkinstenor@gmail.com</li>
+      <li class="h5 mb1">Facebook - paulspenceradkins</li>
+      <li class="h5 mb1">Twitter - @adkinstenor</li>
+    </ul>
+  </div>
+  <div class="col sm-col-12 md-col-6">
     <p>
       He is a adjunct Assistant Professor for
       <a href="http://www.uarts.edu">The University of the Arts</a>

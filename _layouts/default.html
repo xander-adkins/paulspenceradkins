@@ -1,25 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   {% include head.html %}
-
-  <body class="bg-navy">
-
-    <div class="clearfix mx2 sm-p0 md-p3">
-
-      <div class="col md-col-4 sm-col-12">
+  <body class="mx3">
+    <div class="mx-auto max-width-4">
+      <header>
         {% include header.html %}
-      </div>
-
-      <div class="col md-col-8 sm-col-12">
-        <div class="container bg-silver p3">
-          {{ content }}
-        </div>
-      </div>
-
+      </header>
+      <main>
+        {{ content }}
+      </main>
     </div>
-
-    <!-- {% include footer.html %} -->
-
   </body>
 </html>
