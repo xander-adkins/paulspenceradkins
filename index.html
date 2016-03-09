@@ -4,7 +4,7 @@ layout: default
 
 <div class="bg-paul"></div>
 <div class="mt4">
-  <h2 class="h1 max-width-2">
+  <h2 class="h1 max-width-2 animated fadeIn">
     Paul Spencer Adkins is a world class opera singer,
     voice instructor & record producer.
   </h2>
@@ -15,7 +15,7 @@ layout: default
         {% if node.title != 'About' %}
           {% if node.title != null %}
             {% if node.layout == "page" %}
-              <li class="h2 animated fadeIn mb3">
+              <li class="h2 animated fadeInUp mb3">
                 <a href="{{ node.url | prepend: site.baseurl | prepend: site.url }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %}>{{ node.title }}</a>
                 <!-- <a class="{% if page.url contains node.url %}active{% endif %}" href="{{ node.url | prepend: site.baseurl | prepend: site.url }}">{{ node.title }}</a> -->
               </li>

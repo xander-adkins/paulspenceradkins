@@ -6,7 +6,7 @@
   </div>
   <nav class="mt1 h6 right">
     <a {% if current[1] == { site.url } %}href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}"
-      {% else %}href="{{ '/' | prepend: site.baseurl | prepend: site.url }}"{% endif %}>
+      {% else %}href="{{ '/' | prepend: site.baseurl | prepend: site.url }}"{% endif %} class="animated fadeIn">
       {% if current[1] == { site.url } %}Profile{% else %}Menu{% endif %}
     </a>
   </nav>
