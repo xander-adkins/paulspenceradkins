@@ -1,8 +1,8 @@
 <div class="mt3">
   <div class="left">
-    <a class="naked-link" href="/"><img class="animated fadeIn logo" src="{{"/assets/logo.svg" | prepend: site.baseurl }}" alt="PSA Logo"></a>
+    <a class="naked-link" href="{{ site.url }}"><img class="animated fadeIn logo" src="{{"/assets/logo.svg" | prepend: site.baseurl | prepend: site.url }}" alt="PSA Logo"></a>
   </div>
   <nav class="mt1 h6 right">
-    <a class="{% if page.url contains node.url %}block active{% endif %}" href="{{"/about" | prepend: site.baseurl }}">Profile</a>
+    <a class="{% if page.url contains node.url %}block active{% endif %}" href="{{"/about" | prepend: site.baseurl | prepend: site.url }}">Profile</a>
   </nav>
 </div>
