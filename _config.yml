@@ -25,6 +25,6 @@
   sass:
       sass_dir: _sass
       style: :compressed
-  
+
   # paginated_category: "posts"
   # posts_per_page: 3
