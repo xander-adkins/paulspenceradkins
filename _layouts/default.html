@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
   {% include head.html %}
+  {% assign current = page.url | downcase | split: '/' %}
   <body class="mx3">
     <div class="mx-auto max-width-4">
       <header>

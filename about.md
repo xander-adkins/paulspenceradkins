@@ -10,7 +10,7 @@ permalink: /about/
 <h2 class="h1 max-width-2">The Makings of an Operatic Tenor</h2>
 <div class="h4 italic">- scroll down -</div>
 
-<div class="clearfix top-space">
+<div class="clearfix top-space mb4">
   <div class="col sm-col-12 md-col-6">
     <h2 class="m0">Paul Spencer Adkins</h2>
   </div>
@@ -28,7 +28,7 @@ permalink: /about/
       <li class="h5 mb1">Twitter - @adkinstenor</li>
     </ul>
   </div>
-  <div class="col sm-col-12 md-col-6">
+  <div class="col sm-col-12 md-col-6 mb4">
     <p>
       He is a adjunct Assistant Professor for
       <a href="http://www.uarts.edu">The University of the Arts</a>

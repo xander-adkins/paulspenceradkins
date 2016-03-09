@@ -1,8 +1,13 @@
 <div class="mt3">
   <div class="left">
-    <a class="naked-link" href="{{ site.baseurl | prepend: site.url }}"><img class="animated fadeIn logo" src="{{"/assets/logo.svg" | prepend: site.baseurl | prepend: site.url }}" alt="PSA Logo"></a>
+    <a class="naked-link" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+      <img class="animated fadeIn logo" src="{{"/assets/logo.svg" | prepend: site.baseurl | prepend: site.url }}" alt="PSA Logo">
+    </a>
   </div>
   <nav class="mt1 h6 right">
-    <a class="{% if page.url contains node.url %}block active{% endif %}" href="{{"/about" | prepend: site.baseurl | prepend: site.url }}">Profile</a>
+    <a {% if current[1] == { site.url } %}href="{{ '/about' | prepend: site.baseurl | prepend: site.url }}"
+      {% else %}href="{{ '/' | prepend: site.baseurl | prepend: site.url }}"{% endif %}>
+      {% if current[1] == { site.url } %}Profile{% else %}Menu{% endif %}
+    </a>
   </nav>
 </div>
