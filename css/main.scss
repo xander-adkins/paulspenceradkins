@@ -34,7 +34,6 @@
        border-bottom: 1px solid $link-color;
      }
    }
-
    a.naked-link, a.naked-link:hover { border-bottom: none; }
 
    /* Navigation */
@@ -48,7 +47,6 @@
        border-bottom: 2px solid $link-color;
      }
    }
-
    nav a {
      color: $link-color;
      border-bottom: none;
@@ -99,6 +97,7 @@
      background-repeat: no-repeat;
    }
    .top-space { margin-top: calc(100vh - 10em); }
+   .bg-white { background-color: $white; }
  /*
   * IFrame Classes
   */
