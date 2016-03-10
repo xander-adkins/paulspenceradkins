@@ -7,8 +7,8 @@
 
 # Site settings
   title: "Paul Spencer Adkins"
-  baseurl: "/paulspenceradkins" # the subpath of your site, e.g. /blog
-  url: "" # the base hostname & protocol for your site
+  baseurl: "" # the subpath of your site, e.g. /blog
+  url: "http://www.paulspenceradkins.com" # the base hostname & protocol for your site
   permalink: /:title/
   description: > # this means to ignore newlines until "baseurl:"
     Opera Singer &middot; Voice Teacher &middot; Producer

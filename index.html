@@ -16,7 +16,7 @@ layout: default
           {% if node.title != null %}
             {% if node.layout == "page" %}
               <li class="h3 animated fadeInUp mb3">
-                <a href="{{ node.url | prepend: site.baseurl | prepend: site.url }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %}>{{ node.title }}</a>
+                <a href="{{ node.url | prepend: site.baseurl }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %}>{{ node.title }}</a>
               </li>
             {% endif %}
           {% endif %}
