@@ -43,9 +43,9 @@
    font-weight: $heading-font-weight;
    line-height: $heading-line-height;
  }
- h1, .h1 { font-size: $h1 * $font-scale-factor}
- h2, .h2 { font-size: $h2 * $font-scale-factor}
- h3, .h3 { font-size: $h3 * $font-scale-factor}
- h4, .h4 { font-size: $h4 * $font-scale-factor}
- h4, .h5 { font-size: $h5 * $font-scale-factor}
- h6, .h6 { font-size: $h6 * $font-scale-factor}
+ h1, .h1 { font-size: $h1 * $font-scale-factor; }
+ h2, .h2 { font-size: $h2 * $font-scale-factor; }
+ h3, .h3 { font-size: $h3 * $font-scale-factor; }
+ h4, .h4 { font-size: $h4 * $font-scale-factor; color: $rose; }
+ h5, .h5 { font-size: $h5 * $font-scale-factor; color: $rose; }
+ h6, .h6 { font-size: $h6 * $font-scale-factor; color: $rose; }
