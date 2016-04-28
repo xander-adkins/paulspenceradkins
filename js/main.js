@@ -16,3 +16,21 @@
 //     }
 //   });
 // });
+
+// Show Hide Content
+
+
+function showHide(obj) {
+	if (document.getElementById(obj)) {
+		if (document.getElementById(obj+'-show').style.display != 'none') {
+			document.getElementById(obj+'-show').style.display = 'none';
+			document.getElementById(obj).style.display = 'block';
+      document.getElementById(obj+'-teaser').style.display = 'none';
+		}
+		else {
+			document.getElementById(obj+'-show').style.display = 'inline';
+			document.getElementById(obj).style.display = 'none';
+      document.getElementById(obj+'-teaser').style.display = 'block';
+		}
+	}
+}
