@@ -11,6 +11,49 @@ permalink: reviews/
 <div class="max-width-3 mx-auto">
 
   <div class="animated fadeInUp">
+    {% capture my_var %}benj{% endcapture %}
+    <div id="{{ my_var }}-teaser">
+      <p class="h3 italic">
+        "I feel so lucky to have been his student and can't praise him often or loudly enough."
+        <a href="#{{ my_var }}" id="{{ my_var }}-show" class="h5" onclick="showHide('{{ my_var }}');return false;">More...</a>
+      </p>
+      <p class="h5 mb4">— Amanda Jane Cooper</p>
+    </div>
+    <div id="{{ my_var }}" class="more mb4">
+      <p class="h3 italic">
+        "Paul is a wonderful voice teacher, mentor and friend.
+        I had the good fortune of studying with him, where I learned the foundations of vocal technique,
+        a sense of professionalism, and the art of storytelling through song.
+        He provided me with countless opportunities outside of our voice lessons to grow as an artist and young man.
+        He helps facilitate connections between his students and working artists,
+        creates opportunities for them to perform in countless professional settings,
+        and fosters a wonderful community of young performers where his students find a haven and home.
+        I feel so lucky to have been his student and can't praise him often or loudly enough."
+      </p>
+      <h4>— Benj Pasek</h4>
+      <h6>
+        Benj Pasek and Justin Paul are the Tony/Emmy-nominated songwriting team behind the Broadway musical A Christmas Story,
+        The Musical (Tony, Drama Desk, Outer Critics Circle nominations), Dogfight, (Lucille Lortel Award winner,
+        Drama League, Outer Critics Circle, London Evening Standard Awards nominations),
+        James and The Giant Peach, and Edges.
+        TV credits include Smash, Sesame Street and Johnny and the Sprites.
+        Pasek and Paul created the song “Unlimited” for Old Navy’s 2014 back-to-school campaign.
+      </h6>
+      <h6>
+        Current projects include: Dear Evan Hansen (Outer Critics Circle Award, Obie Award, Helen Hayes Award, Drama Desk Award)
+        premiering December 2016 at the Music Box Theatre on Broadway; La La Land starring Emma Stone and Ryan Gosling (Lionsgate);
+        The Greatest Showman starring Hugh Jackman (FOX); Tom and Jerry Return to Oz (Warner Bros Animation);
+        Trolls starring Anna Kendrick (Dreamworks Animation); Medusa (Sony Pictures Animation).
+        Honors: Richard Rodgers Award for Musical Theatre (American Academy of Arts and Letters);
+        ASCAP Richard Rodgers New Horizons Award; Jonathan Larson Award.
+        Both are graduates of the University of Michigan and members of the Dramatists Guild of America, Inc.
+        Visit Benj's <a href="http://pasekandpaul.com">website</a>
+      </h6>
+      <a href="#{{ my_var }}-teaser" id="{{ my_var }}-hide" class="mb4" onclick="showHide('{{ my_var }}');return false;">Show Less</a>
+    </div>
+  </div>
+
+  <div class="animated fadeInUp">
     {% capture my_var %}amanda{% endcapture %}
     <div id="{{ my_var }}-teaser">
       <p class="h3 italic">
