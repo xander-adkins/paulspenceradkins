@@ -11,6 +11,38 @@ permalink: reviews/
 <div class="max-width-3 mx-auto">
 
   <div class="animated fadeInUp">
+    {% capture my_var %}gregory{% endcapture %}
+    <div id="{{ my_var }}-teaser">
+      <p class="h3 italic">
+        "I have always found Paul to have boundless and infectious positive energy."
+        <a href="#{{ my_var }}" id="{{ my_var }}-show" class="h5" onclick="showHide('{{ my_var }}');return false;">More...</a>
+      </p>
+      <p class="h5 mb4">— Gregory Schmidt</p>
+    </div>
+    <div id="{{ my_var }}" class="more mb4">
+      <p class="h3 italic">
+        “One aspect of my singing on which I still regularly receive compliments is the soundness of my technique.
+        I gratefully credit my studying with Paul for laying that solid vocal foundation.
+        Paul has an excellent ability to help a singer eliminate unnecessary and unhelpful vocal habits,
+        while leading the singer to find the strong core of his or her unique instrument.
+        I have always found Paul to have boundless and infectious positive energy.
+        He shares genuine joy with each step forward, large or small.
+        The singer leaves the lesson exhilarated and enthusiastic to do more work.
+        I wholeheartedly recommend Paul as a teacher for vocal students of all ages and experience levels.”
+      </p>
+      <h4>— Gregory Schmidt</h4>
+      <h6>
+        Gregory is on the roster of the Metropolitan Opera.
+        In 2016 he made his main stage debut in productions of Anna Bolena and La Donna del Lago.
+        He has sung leading roles with most of the regional houses in the United States,
+        and has been a professional opera singer for more than 20 years.
+        Learn more about Gregory on his <a href="http://gregoryschmidttenor.com">website</a>.
+      </h6>
+      <a href="#{{ my_var }}-teaser" id="{{ my_var }}-hide" class="mb4" onclick="showHide('{{ my_var }}');return false;">Show Less</a>
+    </div>
+  </div>
+
+  <div class="animated fadeInUp">
     {% capture my_var %}benj{% endcapture %}
     <div id="{{ my_var }}-teaser">
       <p class="h3 italic">
