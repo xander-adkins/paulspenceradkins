@@ -4,11 +4,11 @@
     <title>Paul Spencer Adkins</title>
     <description>Opera Singer &amp;middot; Voice Teacher &amp;middot; Producer
 </description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 08 Apr 2019 23:02:44 +0300</pubDate>
-    <lastBuildDate>Mon, 08 Apr 2019 23:02:44 +0300</lastBuildDate>
-    <generator>Jekyll v3.8.5</generator>
+    <link>http://www.paulspenceradkins.com/</link>
+    <atom:link href="http://www.paulspenceradkins.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 23 Feb 2020 19:37:36 +0200</pubDate>
+    <lastBuildDate>Sun, 23 Feb 2020 19:37:36 +0200</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
   </channel>
 </rss>
