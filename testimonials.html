@@ -11,6 +11,38 @@ permalink: testimonials/
 <div class="max-width-3 mx-auto">
 
   <div class="animated fadeIn">
+    {% capture my_var %}brian{% endcapture %}
+    <div id="{{ my_var }}-teaser">
+      <p class="h3 italic">
+        "Paul is the most careful, nurturing, knowledgeable teacher that one could have the pleasure to work with."
+        <a href="#{{ my_var }}" id="{{ my_var }}-show" class="h5" onclick="showHide('{{ my_var }}');return false;">More...</a>
+      </p>
+      <p class="h5 mb4">— Brian Giebler</p>
+    </div>
+    <div id="{{ my_var }}" class="more mb4">
+      <p class="h3 italic">
+        “My formative years under the tutelage of Paul was not only where I learned a solid foundation of Bel Canto singing, 
+		but where I was allowed personal growth and room for exploration of what I had to offer through my voice. 
+		Paul's passion for singing is apparent in each lesson through his care and specific attention to each student and their unique voice. 
+		The joy and exuberance he displays when teaching and propelling each singer to their utmost potential is tangible, 
+		and is certainly what makes them yearn for even more growth. 
+		Paul is the most careful, nurturing, knowledgeable teacher that one could have the pleasure to work with. 
+		You will walk away with a song in your heart, but more importantly, a reason to sing it.”
+      </p>
+	  <h4>— Brian Giebler</h4>
+      <h6>
+        Praised for his “lovely tone and deep expressivity” by The New York Times, GRAMMY® nominated American tenor Brian Giebler is consistently gaining attention for his vocal “shine and clarity” (Opera News). 
+		His debut solo album, a lad's love on Bridge Records, has earned him his first GRAMMY® nomination for Best Classical Solo Vocal Album. 
+		“The beauty, sweetness, and youthful sheen of Brian Giebler's extremely fine tenor” (San Francisco Classical Voice) and his "expressive and elegant phrasing" (Cleveland Classical) have been heard with The English Concert, 
+		The Cleveland Orchestra, the Prototype Festival, Boston Early Music Festival (2020 GRAMMY® nominee for Best Opera Recording), Boston Baroque, Grand Rapids Symphony, Naples Philharmonic, 
+		Mark Morris Dance Group (Mostly Mozart at Lincoln Center), Boston Modern Orchestra Project, Apollo’s Fire, Handel & Haydn Society, the Oratorio Society of New York (Carnegie Hall), and the Trinity Baroque Orchestra.
+        Learn more about Brian on his <a href="https://www.briangiebler.com">website</a>.
+      </h6>
+      <a href="#{{ my_var }}-teaser" id="{{ my_var }}-hide" class="mb4" onclick="showHide('{{ my_var }}');return false;">Show Less</a>
+    </div>
+  </div>
+
+  <div class="animated fadeIn">
     {% capture my_var %}gregory{% endcapture %}
     <div id="{{ my_var }}-teaser">
       <p class="h3 italic">
