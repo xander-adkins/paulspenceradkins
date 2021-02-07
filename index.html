@@ -5,7 +5,7 @@ title: Home
 
 <div class="bg-paul"></div>
 <div class="mt4">
-  <h2 class="h1 max-width-2 animated fadeIn">
+  <h2 class="h1 max-width-2 animated fadeIn shadow">
     Paul Spencer Adkins is a world class opera singer,
     voice instructor & producer.
   </h2>
@@ -17,7 +17,7 @@ title: Home
           {% if node.title != null %}
             {% if node.layout == "page" %}
               <li class="h3 animated fadeInUp mb3">
-                <a href="{{ node.url | prepend: site.baseurl }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %}>{{ node.title }}</a>
+                <a href="{{ node.url | prepend: site.baseurl }}" {% if current[1] == '{ node.url }' %}class='active'{% endif %} class='shadow'>{{ node.title }}</a>
               </li>
             {% endif %}
           {% endif %}
